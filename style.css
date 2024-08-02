@@ -144,10 +144,12 @@ nav ul .hamburger {
 
 .header-content h1 {
   font-size: 70px;
+  line-height: 100%;
 }
 
 .header-content h2 {
   font-size: 1.6rem;
+  line-height: 100%;
 }
 
 .box{
@@ -182,6 +184,20 @@ nav ul .hamburger {
 @media (max-width: 768px) {
    #main-nav ,.social-icons{
     display: none;
+  }
+
+  .container {
+    height: 100%;
+    padding: 0 1rem;
+  }
+
+  .header-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(140vh - 1px);
+    margin-bottom: 1px;
   }
 
 }
