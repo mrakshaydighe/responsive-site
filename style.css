@@ -200,6 +200,14 @@ nav ul .hamburger {
     margin-bottom: 1px;
   }
 
+  .header-content h2{
+    font-size: 1rem;
+  }
+  .header-content h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+
 }
 
 /* sectionONE  */
@@ -285,6 +293,9 @@ nav ul .hamburger {
   line-height: 1.2;
 }
 
+#headline-1-mobile{
+  display: none;
+}
 .section-one-right p:last-of-type {
   margin-top: 1rem;
 }
@@ -321,6 +332,11 @@ nav ul .hamburger {
   .section-one-left .image-box,
   .section-one-right .image-box {
     max-width: 150px;
+  }
+
+  #headline-1-mobile{
+    display: flex;
+    font-weight: 600;
   }
 }
 
