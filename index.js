@@ -48,12 +48,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const prevArrow = document.querySelector('#section-five-image-slider .arrow.left');
   const nextArrow = document.querySelector('#section-five-image-slider .arrow.right');
 
-  const slideWidth = slider.querySelector('img').clientWidth + 16; // Image width plus margin
+  const slideWidth = slider.querySelector('img').clientWidth + 16; 
   const totalSlides = slider.children.length;
   let currentSlide = 0;
 
   function updateSlider() {
-    // Calculate the offset based on the current slide
+
     const offset = -currentSlide * slideWidth;
     slider.style.transform = `translateX(${offset}px)`;
   }
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentSlide > 0) {
       currentSlide--;
     } else {
-      currentSlide = totalSlides - 1; // Go to the last slide
+      currentSlide = totalSlides - 1; 
     }
     updateSlider();
   });
@@ -71,12 +71,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentSlide < totalSlides - 1) {
       currentSlide++;
     } else {
-      currentSlide = 0; // Go to the first slide
+      currentSlide = 0; 
     }
     updateSlider();
   });
 
-  // Initialize the slider position
+  
   updateSlider();
 });
 
