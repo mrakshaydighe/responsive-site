@@ -751,8 +751,8 @@ nav ul .hamburger {
   }
 
   .section-five-image-silder img {
-    width: 100%; /* Full width for images */
-    margin-bottom: 1rem; /* Space between images */
+    width: 100%; 
+    margin-bottom: 1rem; 
   }
 }
 
@@ -829,12 +829,9 @@ nav ul .hamburger {
   }
 }
 
-
-
-
 #section-seven {
-  height: 90vh; 
-  background-image: url('images/rectangle_1_copy_8.jpg'); /* Replace with your image path */
+  height: 90vh;
+  background-image: url('images/rectangle_1_copy_8.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -847,7 +844,7 @@ nav ul .hamburger {
 }
 
 .section-seven-text {
-  text-align: left; 
+  text-align: left;
 }
 
 .section-seven-text p {
@@ -856,7 +853,7 @@ nav ul .hamburger {
 }
 
 .section-seven-text h1 {
-  font-size: 3.2rem; /* Decreased size */
+  font-size: 3.2rem;
   font-weight: bold;
   line-height: 100%;
 }
@@ -866,9 +863,9 @@ nav ul .hamburger {
 }
 
 .all-btn {
-  margin-top: 1rem; /* Space between the h1 and button box */
+  margin-top: 1rem;
   display: flex;
-  justify-content: flex-start; /* Align buttons to the left */
+  justify-content: flex-start;
 }
 
 .sec-one {
@@ -885,24 +882,25 @@ nav ul .hamburger {
 .content-btn {
   color: white;
   font-weight: bold;
-  font-size: 0.4rem; /* Decreased size */
+  font-size: 1rem;
   border-top: 0.5px solid white;
   border-bottom: 0.8px solid white;
-  padding: 0.5rem 1rem; /* Increased top and bottom padding */
-  text-align: left; /* Left-aligned text */
-  background-color: transparent; /* Transparent background */
-  transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background-color: transparent;
+  transition: color 0.3s, background-color 0.3s;
   width: 100%;
 }
 
 .content-btn:hover {
-  color: black; /* Dark black color */
-  background-color: white; /* White background */
+  color: black;
+  background-color: white;
 }
 
 .fst-btn {
   border-bottom: none;
 }
+
 
 
 @media (max-width: 767px) {
@@ -1051,24 +1049,24 @@ nav ul .hamburger {
 
 @media (max-width: 768px) {
   .footer-container {
-    padding-left: 1rem; /* Adjust padding as needed */
-    padding-right: 1rem; /* Adjust padding as needed */
+    padding-left: 1rem; 
+    padding-right: 1rem; 
     margin-top: 1rem;
   }
 
   .logoes-box {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center text */
-    margin-bottom: 2rem; /* Add space between sections */
+    flex-direction: column; 
+    text-align: center; 
+    margin-bottom: 2rem; 
   }
 
 
   .footer-logo {
-    margin-bottom: 1rem; /* Space between logo and social icons */
+    margin-bottom: 1rem; 
   }
 
   .sociel-logo {
-    display: none; /* Hide social media icons on mobile */
+    display: none; 
   }
 
   .sociel-logo-2{
@@ -1095,10 +1093,10 @@ nav ul .hamburger {
     background-color: #000;
   }
   .main-footer {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-    text-align: center; /* Center text */
-    margin-bottom: 2rem; /* Add space at the bottom */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 2rem; 
   }
 
 .footer-nav{
@@ -1107,26 +1105,26 @@ nav ul .hamburger {
 
   .address, .contact-no, .email {
     text-align: left;
-    width: 100%; /* Full width */
-    margin-bottom: 1rem; /* Space between sections */
+    width: 100%; 
+    margin-bottom: 1rem; 
   }
 
   .address {
     margin-top: 1rem;
-    margin-left: 0; /* Remove left margin on mobile */
+    margin-left: 0; 
   }
 
   .contact-no {
-    margin-left: 0; /* Remove left margin on mobile */
+    margin-left: 0; 
   }
 
   .email {
-    margin-left: 0; /* Remove left margin on mobile */
+    margin-left: 0; 
   }
 }
 
 .footer-nav ul li {
-  margin-bottom: 0.5rem; /* Add margin between list items */
+  margin-bottom: 0.5rem; 
   text-align: left;
 }
 
