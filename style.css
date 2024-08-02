@@ -439,6 +439,12 @@ nav ul .hamburger {
     display: flex;
     flex-direction: column;
   }
+
+  .section-two-right-for-mobile p{
+    color: #b9b9b9;
+    margin-top: 0.3rem;
+    font-weight: 600;
+  }
   .section-two-left {
     margin: 0;
   }
@@ -472,7 +478,7 @@ nav ul .hamburger {
 
 .section-three-conatiner p {
   color: black;
-  margin-top: 1rem; /* Adding margin-top to "ABOUT US" */
+  margin-top: 1rem; 
 }
 
 
@@ -530,16 +536,16 @@ nav ul .hamburger {
     padding-left: 1rem;
   }
   .section-three-right .read-more {
-    margin-top: 1rem; /* Adjusting margin-top for responsive view */
+    margin-top: 1rem; 
   }
 
   #section-three-heading {
-    text-align: left; /* Align left on mobile */
+    text-align: left; 
     line-height: 100%;
   }
 
   #section-three-heading span {
-    display: block; /* Ensure "WHO" and "WE ARE" appear on separate lines */
+    display: block; 
   }
 }
 
@@ -553,7 +559,7 @@ nav ul .hamburger {
   background-size: cover;
   background-position: center;
   position: relative;
-  overflow: hidden; /* Prevents overflow */
+  overflow: hidden; 
 }
 
 .section-four-conatiner {
@@ -566,8 +572,8 @@ nav ul .hamburger {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5); /* Optional: dark overlay for better text visibility */
-  box-sizing: border-box; /* Ensures padding is included in the element’s width and height */
+  background: rgba(0, 0, 0, 0.5); 
+  box-sizing: border-box; 
 }
 
 .section-four-left {
@@ -576,7 +582,7 @@ nav ul .hamburger {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #fff; /* Adjust text color as needed */
+  color: #fff; 
 }
 
 .section-four-right {
@@ -587,9 +593,10 @@ nav ul .hamburger {
 }
 
 .section-four-right img {
+  
   max-width: 100%;
   height: auto;
-  max-height: 100%; /* Prevents image from overflowing */
+  max-height: 100%; 
 }
 
 .section-four-left p,
@@ -597,23 +604,23 @@ nav ul .hamburger {
 .section-four-left h5 {
   margin: 0;
   padding: 0;
-  text-align: left; /* Adjust alignment as needed */
+  text-align: left; 
 }
 
 .section-four-left p {
   margin-top: 1rem;
-  margin-bottom: 1rem; /* Space between the paragraph and the link */
+  margin-bottom: 1rem; 
 }
 
 .section-four-left h1 {
   font-size: 3rem;
-  line-height: 1; /* Space between multiple h1 elements */
+  line-height: 1; 
   margin-bottom: 0.5rem; 
 
 }
 
 .section-four-left h5 {
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 1rem; 
   margin-bottom: 1rem;
   color: #b9b9b9;
 }
@@ -623,6 +630,7 @@ nav ul .hamburger {
   margin-top: 1rem;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
 }
 
 
