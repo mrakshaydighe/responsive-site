@@ -32,7 +32,7 @@ body, html {
 
 .mobile-hamburger {
   width: 20%;
-  background-color: rgb(61, 0, 173);
+  background-color: rgba(66,7,91,255);;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,12 +42,12 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 24px; /* Adjust as needed */
+  height: 24px; 
 }
 
 .hamburger-icon .line {
-  width: 24px; /* Adjust as needed */
-  height: 2px; /* Adjust as needed */
+  width: 24px; 
+  height: 2px; 
   background-color: white;
 }
 
@@ -660,14 +660,14 @@ nav ul .hamburger {
 
   .section-four-left,
   .section-four-right {
-      width: 100%; /* Ensure full width for both sections */
-      text-align: center; /* Center text and image */
+      width: 100%; 
+      text-align: center; 
   }
 
   .section-four-right img {
-      width: 100%; /* Make image full width */
-      height: auto; /* Maintain aspect ratio */
-      max-height: 50vh; /* Adjust height as needed */
+      width: 100%; 
+      height: auto; 
+      max-height: 50vh; 
   }
 
   
@@ -681,11 +681,11 @@ nav ul .hamburger {
 
 #section-five {
   margin-top: 2rem;
-  padding-left: 7rem; /* Left padding for the entire section */
+  padding-left: 7rem; 
 }
 
 .section-five-text {
-  padding-left: 7rem; /* Additional left padding for text block */
+  padding-left: 7rem; 
 }
 
 .section-five-text p {
@@ -703,26 +703,26 @@ nav ul .hamburger {
 }
 
 .section-five-text h1 span {
-  color: #d3d3d3; /* Lighter grey color for span */
+  color: #d3d3d3; 
 }
 
 .section-five-image-silder {
   position: relative;
-  padding-left: 7rem; /* Left padding for slider */
-  overflow: hidden; /* Hide overflow */
+  padding-left: 7rem; 
+  overflow: hidden; 
   display: flex;
-  align-items: center; /* Center align items */
+  align-items: center; 
 }
 
 .section-five-image-silder .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrow */
+  background-color: rgba(0, 0, 0, 0.5); 
   color: #fff; 
   padding: 0.5rem; 
-  cursor: pointer; /* Pointer cursor for arrow */
-  z-index: 1; /* Ensure arrow is above other content */
+  cursor: pointer; 
+  z-index: 1; 
 }
 
 .section-five-image-silder .arrow.left {
@@ -753,41 +753,41 @@ nav ul .hamburger {
 
 .section-five-image-silder .all-images {
   display: flex;
-  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
-  padding-left: 1rem; /* Padding for images */
+  transition: transform 0.5s ease; 
+  padding-left: 1rem; 
   margin-bottom: 2rem;
 }
 
 .section-five-image-silder img {
   max-width: 320px;
   height: 200px;
-  flex: 0 0 auto; /* Adjust size for each image */
-  margin-right: 1rem; /* Space between images */
+  flex: 0 0 auto; 
+  margin-right: 1rem; 
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
   #section-five {
-    padding-left: 1rem; /* Reduce padding on smaller screens */
+    padding-left: 1rem; 
   }
 
   .section-five-text {
-    padding-left: 1rem; /* Reduce padding on smaller screens */
+    padding-left: 1rem; 
   }
 
   .section-five-image-silder {
-    padding-left: 0; /* Remove left padding for slider */
-    flex-direction: column; /* Stack images vertically */
-    align-items: center; /* Center align items */
+    padding-left: 0; 
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .section-five-image-silder .arrow {
-    display: none; /* Hide arrows on smaller screens */
+    display: none; 
   }
 
   .section-five-image-silder .all-images {
-    flex-direction: column; /* Stack images vertically */
-    width: 100%; /* Full width for images */
+    flex-direction: column; 
+    width: 100%; 
   }
 
   .section-five-image-silder img {
@@ -845,27 +845,27 @@ nav ul .hamburger {
 
 @media (max-width: 768px) {
   #section-six {
-    height: auto; /* Adjust height to fit content */
+    height: auto; 
     margin-top: 1rem;
     padding: 0 2rem;
   }
 
   .section-six-conatiner {
-    flex-direction: column; /* Stack items vertically */
-    padding: 0; /* Remove padding */
+    flex-direction: column; 
+    padding: 0; 
   }
 
   .section-six-right {
-    width: 100%; /* Full width */
+    width: 100%; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Space between items */
+    justify-content: space-between; 
   }
 
   .section-six-logo {
-    flex: 0 0 48%; /* Show two logos per row */
-    margin: 1rem 0; /* Adjust margin for spacing */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    flex: 0 0 48%; 
+    margin: 1rem 0; 
+    box-sizing: border-box; 
   }
 }
 
@@ -958,12 +958,12 @@ nav ul .hamburger {
   }
 
   .section-seven-text h1 {
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-size: 2rem; 
   }
 
   .all-btn {
-    flex-direction: column; /* Ensure vertical layout for buttons */
-    align-items: stretch; /* Ensure buttons stretch to full width */
+    flex-direction: column; 
+    align-items: stretch; 
   }
 
   .sec-one {
@@ -971,10 +971,10 @@ nav ul .hamburger {
   }
 
   .content-btn {
-    font-size: 1rem; /* Increase font size for better readability */
-    padding: 1rem; /* Increase padding for touch devices */
-    width: 100%; /* Make buttons full-width */
-    text-align: center; /* Center-align text for better look */
+    font-size: 1rem; 
+    padding: 1rem; 
+    width: 100%; 
+    text-align: center; 
   }
 }
 
