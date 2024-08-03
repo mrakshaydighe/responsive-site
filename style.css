@@ -1124,6 +1124,17 @@ nav ul .hamburger {
   width: 25%;
 }
 
+
+h5:hover{
+  color: blueviolet;
+}
+
+.nav-footer ul li:hover{
+  color: blueviolet;
+}
+.address, .contact-no, .email:hover{
+  cursor: pointer;
+}
 .address {
   margin-left: 2rem;
 }
