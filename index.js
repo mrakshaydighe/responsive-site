@@ -43,6 +43,11 @@ function updateActiveDot(activeDot) {
 
 
 
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const slider = document.getElementById('section-five-image-box');
   const prevArrow = document.querySelector('#section-five-image-slider .arrow.left');
