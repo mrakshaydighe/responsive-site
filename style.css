@@ -10,6 +10,7 @@ body, html {
   font-family: 'Poppins', sans-serif;
 }
 
+/* styles.css */
 
 #mobile-header {
   display: none;
@@ -35,6 +36,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer; 
 }
 
 .hamburger-icon {
@@ -55,11 +57,43 @@ body, html {
   align-self: flex-end;
 }
 
+#mobile-menu {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 12vh; 
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mobile-menu ul li {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#mobile-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (max-width: 768px) {
   #mobile-header {
     display: flex;
   }
 }
+
+
+
 
 
 
@@ -984,10 +1018,9 @@ nav ul .hamburger {
 
 
 
-
 #footer {
-  background-color: #f8f8f8;
-  margin-top: 1rem;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
 }
 
 .footer-container {
@@ -997,7 +1030,6 @@ nav ul .hamburger {
 }
 
 .logoes-box {
-
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -1029,7 +1061,7 @@ nav ul .hamburger {
   margin-left: 1rem;
 }
 
-.sociel-logo li:hover{
+.sociel-logo li:hover {
   background-color: #000;
 }
 
@@ -1041,7 +1073,7 @@ nav ul .hamburger {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
 }
 
@@ -1063,6 +1095,8 @@ nav ul .hamburger {
 .nav-footer ul li {
   list-style: none;
   font-weight: 600;
+  margin-bottom: 0.5rem; 
+  text-align: left; 
 }
 
 .nav-footer ul li:hover {
@@ -1078,42 +1112,40 @@ nav ul .hamburger {
   margin-left: 2rem;
 }
 
-.contact-no{
+.contact-no {
   margin-left: 1rem;
 }
 
 .address i, .contact-no i, .email i {
-  margin-right: 0.5rem; 
+  margin-right: 0.5rem;
 }
 
-
-.sociel-logo-2{
+.sociel-logo-2 {
   display: none;
 }
 
 @media (max-width: 768px) {
   .footer-container {
-    padding-left: 1rem; 
-    padding-right: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-top: 1rem;
   }
 
   .logoes-box {
-    flex-direction: column; 
-    text-align: center; 
-    margin-bottom: 2rem; 
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
-
   .footer-logo {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
   }
 
   .sociel-logo {
-    display: none; 
+    display: none;
   }
 
-  .sociel-logo-2{
+  .sociel-logo-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1125,54 +1157,57 @@ nav ul .hamburger {
     display: flex;
     list-style: none;
     padding: 0;
-    margin-bottom: 2rem;
+    margin: 0;
     justify-content: space-evenly;
   }
-  .sociel-logo-2 ul li{
-    margin-left: 55px;
 
+  .sociel-logo-2 li {
+    margin-left: 1rem;
   }
 
-  .sociel-logo-2 ul li:hover{
+  .sociel-logo-2 li:hover {
     background-color: #000;
   }
+
   .main-footer {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-    margin-bottom: 2rem; 
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
-.footer-nav{
-  margin-bottom:1rem;
-}
+  .nav-footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .footer-nav {
+    margin-bottom: 1rem;
+  }
 
   .address, .contact-no, .email {
     text-align: left;
-    width: 100%; 
-    margin-bottom: 1rem; 
+    width: 100%;
+    margin-bottom: 1rem;
   }
 
   .address {
     margin-top: 1rem;
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   .contact-no {
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   .email {
-    margin-left: 0; 
+    margin-left: 0;
+  }
+
+  .address i, .contact-no i, .email i {
+    display: block;
+    margin-bottom: 0.5rem;
   }
 }
-
-.footer-nav ul li {
-  margin-bottom: 0.5rem; 
-  text-align: left;
-}
-
-
-
-
-
